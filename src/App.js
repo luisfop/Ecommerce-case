@@ -7,14 +7,15 @@ import Layout from "./components/Layout";
 function App() {
 
   const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
+  const hockeyPlayers = useSelector(state => state.hockeyPlayers.players);
 
 
   console.log('STATE => ', isLoggedIn)
+  console.log('STATE => ', hockeyPlayers);
 
   return (
     <div className="App">
-      <Auth />
-      {/* <Layout /> */}
+      {isLoggedIn ? <Layout/> : <Auth/>}
     </div>
   );
 }
