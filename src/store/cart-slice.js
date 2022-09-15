@@ -32,7 +32,7 @@ const cartSlice = createSlice({
         },
         removeFromCart(){},
         showCart(state){
-            state.showCart = true
+            state.showCart = !state.showCart
         }
 
 
