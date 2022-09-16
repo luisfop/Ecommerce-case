@@ -7,9 +7,6 @@ const Product = ({ name, id, imgURL, price }) => {
 
   const dispatch = useDispatch()
 
-   const cartItems = useSelector(state => state.cart.itemList);
-   console.log('cart items => ',cartItems)
-
   const addToCart = () => {
     dispatch(cartActions.addItemToCart({
       name: name,

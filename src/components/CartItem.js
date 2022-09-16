@@ -9,7 +9,7 @@ const CartItem = ({ name, quantity, total, price, id }) => {
   };
   const addHandler = () => {
     dispatch(
-      cartActions.addToCart({
+      cartActions.addItemToCart({
         id,
         name,
         price,
