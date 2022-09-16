@@ -1,44 +1,34 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Welcome to Redux Shopping App!
 
-## Available Scripts
+This project was created to practice and remember details about Redux and Redux Toolkit. The application has two pages, wich one is for registration ( without any auth ) and the other is a list of the products where you can add and control your cart ( via global state redux ). On the page where you can buy the products it is possible to delete and add more quantity by clicking the buttons - and + as well click the Cart to show cart products. The framework used in this was simple React with CSS. Redux and Redux Toolkit. To check other dependecies please go to package.json
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/42620311/190668421-bd8bdea7-549a-4c8b-aba1-5aad97a124b4.png)
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/42620311/190670261-a14d7e6e-92eb-414a-9cc8-b9111ca63162.png)
 
-### `npm test`
+How to run
+Clone: To clone the project please go to: https://github.com/luisfop/Ecommerce-case.git
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+On the terminal execute:
 
-### `npm run build`
+git clone: https://github.com/luisfop/Ecommerce-case.git
+Open the Ecommerce-case folder:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+cd Ecommerce-case/
+Execute the command :
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+npm install
+or
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+yarn install
+To run the application execute the command line:
 
-### `npm run eject`
+npm run serve
+or
+yarn run serve
+How to Use
+Open the browser and go to url: https://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The land page is the login form. To check the list of products please click login.
