@@ -8,22 +8,25 @@ This project was created to practice and remember details about Redux and Redux 
 
 ![image](https://user-images.githubusercontent.com/42620311/190670261-a14d7e6e-92eb-414a-9cc8-b9111ca63162.png)
 
-How to run
-Clone: To clone the project please go to: https://github.com/luisfop/Ecommerce-case.git
+# How Clone
 
 On the terminal execute:
-
 git clone: https://github.com/luisfop/Ecommerce-case.git
-Open the Ecommerce-case folder:
 
+Open the Ecommerce-case folder:
 cd Ecommerce-case/
-Execute the command :
+Execute the command:
 
 npm install
 or
-
 yarn install
-To run the application execute the command line:
+
+# To run the application execute the command line:
+yarn start
+or
+npm start
+
+# How to Use
 
 npm run serve
 or
@@ -31,4 +34,4 @@ yarn run serve
 How to Use
 Open the browser and go to url: https://localhost:3000
 
-The land page is the login form. To check the list of products please click login.
+The land page is the login form. To check the list of products and the other features,please click login
