@@ -21,17 +21,21 @@ npm install
 or
 yarn install
 
-# To run the application execute the command line:
-yarn start
+# To install dependencies:
+yarn install
 or
-npm start
+npm install
 
 # How to Use
 
-npm run serve
+npm start
 or
-yarn run serve
-How to Use
-Open the browser and go to url: https://localhost:3000
+yarn start
+
+
+# Ps:
+It should open the browser and go to url: https://localhost:3000
 
 The land page is the login form. To check the list of products and the other features,please click login
+
+Enjoy :)
