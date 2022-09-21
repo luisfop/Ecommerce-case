@@ -1,22 +1,24 @@
 import React from "react";
-import { useSelector } from 'react-redux';
 import "./App.css";
 import Auth from "./components/Auth";
 import Layout from "./components/Layout";
+import { AuthProvider } from "./context";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import PrivateRoutes from "./components/PrivateRoute/PrivateRoute";
 
 function App() {
-
-  const isLoggedIn = useSelector(state => state.auth.isLoggedIn);
-  const hockeyPlayers = useSelector(state => state.hockeyPlayers.players);
-
-
-  console.log('STATE => ', isLoggedIn)
-  console.log('STATE => ', hockeyPlayers);
-
+  
   return (
-    <div className="App">
-      {isLoggedIn ? <Layout/> : <Auth/>}
-    </div>
+    <AuthProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/u" element={<PrivateRoutes />}>
+            <Route path="layout" element={<Layout />} />
+          </Route>
+          <Route path="/" element={<Auth/>}/>
+        </Routes>
+      </BrowserRouter>
+    </AuthProvider>
   );
 }
 
