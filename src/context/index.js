@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import { LoginRequest } from "./util";
+import { LoginRequest } from '../services/api';
 
 export const AuthContext = createContext({});
 
@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
 
   let authenticate = async (email, password) => {
     const response = await LoginRequest(email, password);
-    const payload = { token: response.token, email };
+    const payload = { token: response.data.token, email };
 
     setUser(payload);
   };

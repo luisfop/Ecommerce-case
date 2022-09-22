@@ -6,7 +6,6 @@ import "./Auth.css";
 
 const Auth = () => {
   
-
   const auth = useAuth();
   let navigate = useNavigate();
 
