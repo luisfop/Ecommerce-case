@@ -1,6 +1,6 @@
 # Welcome to Redux Shopping App!
 
-This project was created to practice and remember details about Redux and Redux Toolkit. The application has two pages, wich one is for registration ( without any auth ) and the other is a list of the products where you can add and control your cart ( via global state redux ). On page where you can buy the products it is possible to delete and add more quantity of it by clicking the buttons - and + as well click the Cart to show cart products. 
+This project was created to practice and recall details about Redux and Redux Toolkit. The application has two pages, wich one is for registration ( without any auth ) and the other is a list of the products where you can add and control your cart ( via global state redux ). On page where you can buy the products it is possible to delete and add more quantity of it by clicking the buttons - and + as well click the Cart to show cart products. 
 
 The framework used in this was simple React with CSS. Redux and Redux Toolkit, AXIOS ( /context-login branch ) and CONTEXT-API. To check other dependecies please go to package.json
 
